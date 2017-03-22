@@ -5,10 +5,17 @@
 @import url(blog.css);
 @import url(info.css);
 @import url(footer.css);
+main {
+	background-color:;
+}
 
 img {
 	width: 400px;
 	height: 700px;
+}
+img .fondo {
+	width: auto;
+	height: auoto;
 }
 
 
@@ -49,4 +56,12 @@ section {
 #bienvenido {
 	text-align: center;
 
+}
+/*mode escritorio o modo Tablets */
+
+@media (min-width:1024px){
+	.contenedor {
+		width:1000px;
+	}
+	
 }

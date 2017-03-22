@@ -20,3 +20,19 @@ footer .contenedor {
 	color: #333;
 	text-decoration: none
 }
+@media (min-width:768px){
+	.sociales {
+		width: auto;
+		
+	}
+	footer .contenedor {
+		/* ahora quiero que se vallan al extremo */
+		justify-content: space-between;
+	}
+}
+
+@media(min-width:1024){
+	.contedor {
+		
+	}
+}

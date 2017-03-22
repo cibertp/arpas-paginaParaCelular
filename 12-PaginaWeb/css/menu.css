@@ -37,5 +37,26 @@ header label {
 
 #menu-bar:checked ~ .menu{
 	transform: translateX(0%)
+}
+/* Dando estilos para un table */
+@media (min-width:1024px){
+	.menu {
+		/*saquemos del ciclo el posicion absolute */
+		position: static;
+		width: auto;
+		height: auto;
+		transform: translate(0%);
+		float: right;
+		display: flex;
+		
+	}
 	
+	.menu a {
+		/* quietare el borde que puse en celular*/
+		border: none;
+	}
+	header label {
+		display: none;
+		
+	}
 }
